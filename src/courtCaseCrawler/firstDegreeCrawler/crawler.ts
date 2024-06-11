@@ -7,7 +7,7 @@ export class FirstDegreeCaseCrawler implements CourtCrawler {
   private firstDegreeSearchPage: FirstDegreeSearchPage | undefined
   private firstDegreeCasePage: FirstDegreeCasePage | undefined
   private page: Page | undefined
-  private readonly courtSystem = 'TJAL_ESAJ'
+  private readonly courtSystem = 'TJCE_ESAJ'
 
   private constructor (
     private readonly pageManager: PreloadedPageManager
